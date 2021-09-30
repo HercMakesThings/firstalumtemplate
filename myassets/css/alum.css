@@ -24,7 +24,11 @@ html, body{
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: #9FA2B2;
+  background-image: url("../media/firstlandingbanner1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #760355;
   color: #FFF;
 }
 
@@ -103,6 +107,25 @@ html, body{
 /*************************************************
 ************Slanted Section 1 Homepage************
 *************************************************/
+
+.accentlinecenter{
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.accentlineleft{
+  width: 120px;
+  height: 2px;
+  background-color: #fff;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 20px;
+}
 
 #slantseccontainer{
   padding: 0px;
