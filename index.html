@@ -25,20 +25,19 @@
 
     <!--landingPage Top Section-->
     <section id="topsec" class="scrolldemo">
-      <div data-aos="zoom-in-right" id="top-title" class="d-flex align-items-center justify-items-center">
-        <img src="myassets/media/placeholder1.png" alt="">
-        <h1>Alumni Designs</h1>
+      <div data-aos="zoom-in-right" id="top-title" class="row align-items-center justify-items-center">
+        <img class="col-sm-6" src="myassets/media/placeholder1.png" alt="">
+        <h1 class="col-sm-6">Alumni Designs</h1>
       </div>
         <a id="scrollbtn1" href="#topnavbar"><!--<span class="far fa-arrow-alt-circle-down fa-2x"></span>--><span></span></a>
     </section>
     <!--landingPage Top Section END-->
 
-    <div id="topnavbar" class="container">
+    <div id="topnavbarcontainer" class="container">
       <!--Top Level Navigation-->
-      <nav class="nav justify-content-end">
+      <nav id="topnavbar" class="nav justify-content-end">
         <a class="nav-link" href="#">Home</a>
         <a class="nav-link" href="#">Portfolio</a>
-        <a class="nav-link" href="#">About</a>
         <a class="nav-link" href="#">Contact</a>
       </nav>
     </div>
@@ -48,59 +47,37 @@
     <div id="slantseccontainer" class="container-fluid">
 
 
-        <section data-aos="fade-right" id="slantedsec1" class="row gx-2 align-items-center">
-            <div id="skillscol1" class="col-sm-4">
-              <h1>Skills</h1>
-              <!--<span class="fas fa-arrow-alt-from-left"></span>-->
-              <small>Place the skills post title here</small>
+        <section data-aos="fade-right" id="slantedsec1" class="row gx-0 align-items-center">
+            <div id="aboutcol1" class="col-sm-7 p-4">
+              <p>INSERT ABOUT ME POST CONTENT HERE Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div id="skillscol2" class="col-sm-8">
-              <ul>
-                <li>Skill list/bars go here</li>
-                <li>Probably through use of a wp plugin</li>
-                <li>list item 3</li>
-                <li>list item 4</li>
-              </ul>
+            <div class="vl col-sm-1"></div>
+            <div id="aboutcol2" class="col-sm-4 justify-content-center">
+              <h1>About Me</h1>
+              <small>Insert about post title hook here</small>
             </div>
         </section>
 
-        <section data-aos="fade-left" id="slantedsec2" class="row g-0">
-
+        <section data-aos="fade-left" id="slantedsec2" class="row g-0 align-items-center">
+          <div id="skillscol1" class="col-sm-4">
+            <h1>Skills</h1>
+            <!--<span class="fas fa-arrow-alt-from-left"></span>-->
+            <small>Place the skills post title hook here</small>
+          </div>
+          <div id="skillscol2" class="col-sm-8">
+            <ul>
+              <li>Skill list/bars go here</li>
+              <li>Probably through use of a wp plugin</li>
+              <li>list item 3</li>
+              <li>list item 4</li>
+            </ul>
+          </div>
         </section>
 
     </div>
 
 
-    <div class="container">
-      <div class="row">
-          <div data-aos="fade-right" class="col-sm-6">
-            <div class="card">
-              <div class="card-header">Tester</div>
-              <div class="card-body">
-                <ul>
-                  <li>hello</li>
-                  <li>test</li>
-                  <li>tester</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div data-aos="fade-left" class="card">
-              <div class="card-header">Tester</div>
-              <div class="card-body">
-                <ul>
-                  <li>hello</li>
-                  <li>test</li>
-                  <li>tester</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>
-
-    <!--Vertical Tabs for Skills Area-->
+    <!--Vertical Tabs for Skills Area--><!--
     <div class="d-flex align-items-start">
       <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
         <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
@@ -114,7 +91,7 @@
         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
         <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
       </div>
-    </div>
+    </div>-->
 
 
 
@@ -130,7 +107,58 @@
 
 
     <footer class="container-fluid">
-      
+      <div class="container">
+        <div class="row">
+            <div data-aos="flip-down" class="col-sm-3 mt-3">
+              <div class="card">
+                <div class="card-header">Tester</div>
+                <div class="card-body">
+                  <ul>
+                    <li>hello</li>
+                    <li>test</li>
+                    <li>tester</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 mt-3">
+              <div data-aos="flip-up" class="card">
+                <div class="card-header">Tester</div>
+                <div class="card-body">
+                  <ul>
+                    <li>hello</li>
+                    <li>test</li>
+                    <li>tester</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 mt-3">
+              <div data-aos="flip-down" class="card">
+                <div class="card-header">Tester</div>
+                <div class="card-body">
+                  <ul>
+                    <li>hello</li>
+                    <li>test</li>
+                    <li>tester</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 mt-3 mb-3">
+              <div data-aos="flip-up" class="card">
+                <div class="card-header">Tester</div>
+                <div class="card-body">
+                  <ul>
+                    <li>hello</li>
+                    <li>test</li>
+                    <li>tester</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
     </footer>
 
 
