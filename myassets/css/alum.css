@@ -47,32 +47,6 @@ html, body{
   background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.4) 80%,rgba(0,0,0,.4) 100%);
 }
 
-#topnavbarcontainer{
-  position: sticky;
-  z-index: 3;
-  top: 0;
-  background-color: #fff;
-
-}
-
-#topnavbar{
-  /*position: absolute;
-  bottom: 0;
-  right: 0;*/
-  /*position: sticky;
-  position: -webkit-sticky; /* Safari */
-  /*top: 0;
-  z-index: 3;*/
-  
-}
-
-/*#topsec a span{
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  color: lime;
-}*/
-
 #topsec a span{
   position: absolute;
   bottom: 3%;
@@ -108,9 +82,68 @@ html, body{
   left: 5%;
 }
 
+/*************************************************
+***************Top Nav Bar Stylings***************
+*************************************************/
+
+#topnavbarcontainer{
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  background-color: #fff;
+
+}
+
+#topnavbar{
+  /*position: absolute;
+  bottom: 0;
+  right: 0;*/
+  /*position: sticky;
+  position: -webkit-sticky; /* Safari */
+  /*top: 0;
+  z-index: 3;*/
+  display: flex;
+
+}
+
+#topnavbar a{
+  color: #760355;
+}
+
+#topnavbar a:hover{
+  color: #fff;
+  background-color: #760355;
+}
+
+#topnavbar .icon{
+  display: none;
+}
+
+/*#topsec a span{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  color: lime;
+}*/
+
 /*#topsecnav a span:hover{
   cursor: pointer;
 }*/
+
+@media screen and (max-width: 600px){
+  a.childclear{
+    display: none;
+  }
+
+  #topnavbar a.icon{
+    display: block;
+    margin-left: auto;
+  }
+
+  .responsive{
+    flex-direction: column;
+  }
+}
 
 
 
@@ -227,7 +260,7 @@ html, body{
       height: 100%;
       content: '';
       background: inherit;
-      z-index: -1;
+      z-index: 0.5;
       top: 0;
       right: 0;
       bottom: 0;

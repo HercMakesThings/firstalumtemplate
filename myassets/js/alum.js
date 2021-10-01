@@ -13,7 +13,18 @@ $('#scrollbtn1').on('click', function(e){
 });
 
 
+  //Responsive navbar js
+  $('.icon').click(function(){
+    var a = $('#topnavbar');
+    if(a.hasClass('topnav')){
+      a.toggleClass('responsive');
+      //$('#home-link').toggleClass('childclear');
+      //$('#portfolio-link').toggleClass('childclear');
+      //$('#contact-link').toggleClass('childclear');
+      $('.topnav a').toggleClass('childclear');
+    }
 
+    })
 
 
 
