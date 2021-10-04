@@ -57,7 +57,7 @@ html, body{
   height: 80%;
   background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.4) 80%,rgba(0,0,0,.4) 100%);
   background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.4) 80%,rgba(0,0,0,.4) 100%);
-  
+
 }
 
 #topsec a span{
@@ -132,11 +132,13 @@ html, body{
 
 #topnavbar a{
   color: #760355;
+
 }
 
 #topnavbar a:hover{
   color: #fff;
   background-color: #760355;
+
 }
 
 #topnavbar .icon{
@@ -154,8 +156,16 @@ html, body{
   cursor: pointer;
 }*/
 
+.navchild{
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 600px){
   a.childclear{
+    display: none;
+  }
+
+  a.childclear1{
     display: none;
   }
 
@@ -357,5 +367,6 @@ footer a:hover{
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
   margin-bottom: 20px;
+  border: 1px solid rgba(123, 109, 141, 0.3);
+  border-radius: 3px;
 }
-
