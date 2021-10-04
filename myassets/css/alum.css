@@ -186,7 +186,7 @@ html, body{
 *************************************************/
 
 .accentlinecenter{
-  width: 30px;
+  width: 60px;
   height: 2px;
   background-color: #fff;
   margin-left: auto;
@@ -199,25 +199,6 @@ html, body{
   width: 120px;
   height: 2px;
   background-color: #fff;
-  margin-right: auto;
-  margin-top: 5px;
-  border-radius: 20px;
-}
-
-.accentlinecenterdark{
-  width: 30px;
-  height: 2px;
-  background-color: #16262e;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  border-radius: 20px;
-}
-
-.accentlineleftdark{
-  width: 120px;
-  height: 2px;
-  background-color: #16262e;
   margin-right: auto;
   margin-top: 5px;
   border-radius: 20px;
@@ -271,6 +252,8 @@ html, body{
 
 .vl{
   border-right: 2px solid #fff;
+  position: relative;
+  z-index: 3;
 }
 
 /*************************************************
@@ -307,7 +290,24 @@ html, body{
   text-align: center;
 }
 
+.accentlinecenterdark{
+  width: 60px;
+  height: 2px;
+  background-color: #16262e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 20px;
+}
 
+.accentlineleftdark{
+  width: 120px;
+  height: 2px;
+  background-color: #16262e;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 20px;
+}
 
 
 /*************************************************
